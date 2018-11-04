@@ -3,5 +3,8 @@
 # inherit from AOSDP
 #
 
-BOARD_SEPOLICY_DIRS += \
-    device/aosdp/sepolicy/common
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/aosdp/sepolicy/common/public
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/aosdp/sepolicy/common/private
